@@ -11,6 +11,23 @@ Finding the deal is half the battle. Telling the user how to actually book it is
 
 **Reference data:** `data/alliances.json` has booking details for major programs in `key_booking_relationships`.
 
+## Program Fee Profiles
+
+**Check this before recommending a transfer or locking in a departure city.** Fees vary dramatically by program and origin airport and can add $100-400+ per person on top of the miles cost.
+
+| Program | YQ Surcharge? | Typical fees/pp | Notes |
+|---------|--------------|-----------------|-------|
+| Aeroplan (Air Canada) | No | $50-100 | No YQ pass-through on Star Alliance partners. Low fees. Best for LH/LX/UA awards. |
+| Flying Blue (AF/KLM) | Yes | $300-400 | Air France passes full fuel surcharge. France adds heavy departure tax (~$200/pp from CDG). Budget $350-400/pp minimum from Paris. |
+| United MileagePlus | No | $50-100 | No YQ on most partners. |
+| Virgin Atlantic | Yes (on VS metal) | $100-300 | Low on Delta metal, higher on VS-operated flights. |
+| Turkish Miles & Smiles | No | $20-50 | Extremely low fees. Best for Star Alliance if you can book by phone. |
+| British Airways Avios | Yes | $200-400 | Notorious for carrier surcharges on BA metal. Use for short-haul or partner metal instead. |
+| American AAdvantage | No | $50-75 | No surcharges. Partner awards (JAL, Cathay) have low fees. |
+| Alaska Mileage Plan | No | $25-75 | No surcharges. Consistently low fees. |
+
+**Key rule:** If the trip ends in Paris, London, or on Air France/BA/Virgin metal, factor in $300-400/pp in fees before comparing to other programs. A 40K Flying Blue award from CDG often costs more in cash fees than a 50K Aeroplan award from FRA.
+
 ## General Booking Flow
 
 1. **Find availability** (Seats.aero, airline website, or MCP tool)
