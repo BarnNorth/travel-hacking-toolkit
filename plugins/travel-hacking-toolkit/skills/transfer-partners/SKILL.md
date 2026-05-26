@@ -171,9 +171,40 @@ Sometimes the cheapest path involves booking through a different program than th
 - **Flying Blue → Delta:** Often cheaper than SkyMiles, plus free stopovers.
 - **Alaska → Starlux:** Only points booking option for Starlux.
 
+## Transfer Timing Risks
+
+**Always flag these before recommending a transfer.** Points transfers are irreversible. Timing problems are the most common cause of lost awards.
+
+### Business day delays
+Most credit card → loyalty program transfers are processed on business days. A transfer submitted on a weekend or public holiday may not land until the next business day — or the business day after a holiday weekend. For US banks: Saturday/Sunday submissions often process Monday or Tuesday. A Friday night submission before a Monday US federal holiday (Memorial Day, Labor Day, etc.) may not land until Tuesday.
+
+**Rule of thumb:** If seats are at risk of disappearing, transfer before 5pm ET on the last business day before any weekend or holiday — not the night before.
+
+### Per-program transfer speeds (typical, not guaranteed)
+| Program | Typical speed | Notes |
+|---------|--------------|-------|
+| Aeroplan | Minutes to 2 hours | Usually instant via API. "Next business day" warning is CYA language but can be real on weekends. |
+| Flying Blue | 2-12 hours | Generally fast. |
+| United MileagePlus | Minutes to 2 hours | Usually fast. |
+| Hyatt | Minutes to 2 hours | Usually fast. |
+| Turkish Miles & Smiles | 1-3 days | Slower than most. |
+| Virgin Atlantic | Minutes to 2 hours | Usually fast. |
+| Alaska Mileage Plan | Minutes to 2 hours | Usually fast. |
+
+### New loyalty account delays
+If the traveler is transferring to a **newly opened loyalty account**, most programs impose a 24-72 hour hold before the account can receive transfers. Opening an Aeroplan account 30 minutes before transferring points is a common mistake.
+
+**Rule:** Open the loyalty account at least 3 days before the transfer if it's a new account. Verify the account number and name match exactly before transferring.
+
+### Never transfer speculatively
+If no hold is available (Aeroplan, United, Delta, Alaska do not allow holds), only transfer when:
+1. You have confirmed availability on the airline's own booking site
+2. You're prepared to book immediately after the transfer lands
+3. You've checked `ComputedLastSeen` on seats.aero — stale cache means the seat may already be gone
+
 ## Notes
 
 - Transfer ratios rarely change, but verify against issuer websites before large transfers.
-- Transfers are usually instant but can take up to 48 hours. Don't transfer until you've confirmed award availability.
+- Transfers are irreversible. See Transfer Timing Risks above before committing.
 - Some programs run transfer bonuses (10-30% extra). Use the `transfer-bonuses` skill (live data, weekly auto-refresh) instead of guessing.
 - The "best" currency depends on what you have the most of AND what you value it at. A 1:1 transfer from a currency you value at 2.0 cpp costs more in opportunity than a 1:1 from one you value at 1.5 cpp.
